@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex to RGB</title>
+</head>
+<body>
+    <h1>RGB to Hex Converter</h1>
+  <label for="red-input">Red:</label>
+  <input type="number" id="red-input" min="0" max="255" required>
+  <br>
+  <label for="green-input">Green:</label>
+  <input type="number" id="green-input" min="0" max="255" required>
+  <br>
+  <label for="blue-input">Blue:</label>
+  <input type="number" id="blue-input" min="0" max="255" required>
+  <br>
+  <button onclick="convertToHex()">Convert to Hex</button>
+  <div id="color-preview"></div>
+  <div id="hex-code"></div>
+</body>
+</html>
